@@ -1,0 +1,22 @@
+:root {
+	/* URL */
+		--Ebannerurl: url(); /* 상단 배너 */
+}
+
+/* 상단 배너 */
+header:before {
+    display: block;
+    width: auto;
+    height: 78px;
+    background: var(--Ebannerurl) no-repeat;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    padding: 0;
+    content: "";
+    margin-bottom: 15px;
+}
+
+header {
+	padding: 0.5em 0 0.5em 0;
+}
