@@ -4,23 +4,31 @@
 
 :root {
 	/* URL */
-		--Ebannerurl: url(); /* 상단 배너 */
+		--Ebannerurl: url(https://cdn.discordapp.com/attachments/659060204247318528/687715246978498590/c7ffd202797f642a.png); /* 상단 배너 */
 }
 
-/* 상단 배너 */
-header:before {
+/* 중간 배너 */
+header:after {
     display: block;
-    width: auto;
-    height: 78px;
+    width: 1070px;
+    height: 60px;
     background: var(--Ebannerurl) no-repeat;
+    border-bottom: 3px solid #6441a5;
+    border-right: none;
+    border-left: none;
     background-position: center center;
     position: relative;
     top: 0;
     padding: 0;
     content: "";
-    margin-bottom: 15px;
+    margin: 0 auto;
+    margin-bottom: 0.4em;
 }
-
+        
 header {
-	padding: 0.5em 0 0.5em 0;
+    padding: 0.4em 0 0 0;
+}
+        
+header #header-bar {
+    margin-bottom: 0.2em;
 }
