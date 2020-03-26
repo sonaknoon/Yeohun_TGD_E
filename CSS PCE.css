@@ -5,7 +5,7 @@
 /* ㅡㅡㅡㅡㅡ 만우절 이벤트 ㅡㅡㅡㅡㅡ */
 :root {
 	/* URL */
-		--Ebannerurl: url(https://cdn.discordapp.com/attachments/659060204247318528/690888668579102730/397c1f889e05077d.png); /* 상단 배너 */
+		--Ebannerurl: url(https://cdn.discordapp.com/attachments/692773470441963540/692785316192321536/e4c473d65c4ea02b.png); /* 상단 배너 */
 }
 
 /* 중간 배너 */
@@ -46,6 +46,10 @@ header #header-bar {
     /* URL */
         --logoURL: url(https://cdn.discordapp.com/attachments/692773470441963540/692773526775529513/5806cb7ed6c7914b.png); /* 로고 */
 		--Ebannerurl: url(https://cdn.discordapp.com/attachments/692773470441963540/692777825572487238/322e83f5a8e3010d.png); /* 상단 배너 */
+}
+
+header:before {
+    background: var(--Ebannerurl) no-repeat;
 }
 
 /* 배경 이미지 */
