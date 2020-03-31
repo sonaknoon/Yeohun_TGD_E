@@ -82,7 +82,7 @@ html {
 
 body {
     background: transparent;
-    animation: snow 20s linear infinite;
+    animation: snow 15s linear infinite;
     background-image: /* 백그라운드 애니메이션 소스 임포트 */
-     url(https://cdn.discordapp.com/attachments/692773470441963540/692773536695189624/Untitled.png);
+     url(https://cdn.discordapp.com/attachments/692773470441963540/694350190517420143/Cherryblossom.png);
 }
